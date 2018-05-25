@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body> 
+  <div id="preloader" class="progress">
+    <div class="indeterminate"></div>
+  </div>
+  <div id="tooltip" class="tooltip" style="opacity: 0;">
+  </div>
+
+  
+  <div id="stats" class="annotation" style="display: none;">
+    <table class="highlight">
+        <thead>
+          <tr>
+              <th id="index"></th>
+              <th id="title"><strong id="title"></strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Typical value</td>
+            <td id="typical_value"></td>
+          </tr>
+          <tr>
+            <td>High value</td>
+            <td id="high_value"></td>
+          </tr>
+          <tr>
+            <td>Low value</td>
+            <td id="low_value"></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+  <div id="logo">
+      <img src="https://gladminds.co/wp-content/uploads/2015/01/gladminds-logo3.png" alt="GladMinds">
+  </div>
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/85/three.min.js'></script>
+    <script src="js/main.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <script  src="js/buildcorner.min.js"></script>
+  </body>
+</html>
